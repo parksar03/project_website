@@ -1,0 +1,21 @@
+.digital-artifacts-container {
+    font-family: 'Titillium Web', sans-serif;
+	margin-bottom: 10px;
+    float: left;
+    margin-top: 50px;
+	margin-left: 50px;
+    /* This is not an ideal solution, but whatever. */
+    width: Calc(100vw - 550px);
+    height: fit-content;
+    min-width: 500px;
+    max-width: 1000px;
+}
+
+.instagram-container, .tweet-container, .facebook-container {
+    display: inline-block;
+    text-align: center;
+}
+
+.centered-title {
+    text-align: center;
+}
